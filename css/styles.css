@@ -24,6 +24,19 @@
 #FFFFFF - adress in footer
 color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
 #2F303A - background footer
+
+
+Колір до сторінки портфоліо
+#212121 - текст кнопки навігації по портфоліо 
+#F5F4FA - фон кнопки 
+HOVER
+#FFFFFF - текст
+#2196F3 - фон
+
+
+#EEEEEE -фон карточки порфоліо
+#212121 -h2 карточки
+#757575 -p карточки портфоліо
 */
 
 .visually-hidden {
@@ -49,6 +62,11 @@ color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
 
 .btn {
   cursor: pointer;
+  font-family: inherit;
+}
+
+.current {
+  color: #2196f3;
 }
 
 /* --------------------------Header styles------------------------------- */
@@ -155,4 +173,29 @@ color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
 .address-mail:focus,
 .address-phone:focus {
   color: #2196f3;
+}
+
+/* ----------------Portfolio html------------------ */
+
+/* portfolio section */
+
+.portfolio-btn {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.works-list-item {
+  background-color: #eeeeee;
+}
+.works-item-title {
+  color: #212121;
+}
+.works-item-caption {
+  color: #757575;
 }
