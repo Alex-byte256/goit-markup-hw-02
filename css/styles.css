@@ -33,8 +33,6 @@ HOVER
 #FFFFFF - текст
 #2196F3 - фон
 
-
-#EEEEEE -фон карточки порфоліо
 #212121 -h2 карточки
 #757575 -p карточки портфоліо
 */
@@ -190,9 +188,6 @@ HOVER
   background-color: #2196f3;
 }
 
-.works-list-item {
-  background-color: #eeeeee;
-}
 .works-item-title {
   color: #212121;
 }
