@@ -1,0 +1,158 @@
+/* 
+
+пофіксити адрес тег бо він дає з нахилом текст !!!!!!!!!!!!
+поставити кнопкам значення наслідування!!!!!!!!!!!!
+
+Кольори з макету
+#000000 -logo
+#2196F3 -logo and hover for links
+#212121 -links header
+#757575 - header phone and mail / hover #2196F3
+#FFFFFF -hero
+#2F303A -background hero section
+#FFFFFF - text color btn
+#2196F3 - background color btn
+#188CE8 - btn hover
+#757575 - P in section after hero section
+#212121 - h3 in section after hero section
+#212121 - h2 in what we do section
+#212121 - h2 in our team section
+#F5F4FA - our team background section
+#212121 - teamate item h3
+#757575 - p in team item list
+#FFFFFF  #2196F3 -footer logo 
+#FFFFFF - adress in footer
+color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
+#2F303A - background footer
+*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* --------------------------Header styles------------------------------- */
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.header-nav-list-item {
+  color: #212121;
+}
+
+.header-nav-list-item:hover,
+.header-nav-list-item:focus {
+  color: #2196f3;
+}
+
+.header-contact-list-item {
+  color: #757575;
+}
+
+.header-contact-list-item:hover,
+.header-contact-list-item:focus {
+  color: #2196f3;
+}
+
+/* -----------------------main sstyles-------------------- */
+/* HERO section */
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* benefots section */
+.benefits-item-title {
+  color: #212121;
+}
+.benefits-caption {
+  color: #757575;
+}
+
+/* work section */
+
+.work-section-title {
+  color: #212121;
+}
+
+/* our team section */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section-title {
+  color: #212121;
+}
+.team-item-title {
+  color: #212121;
+}
+.team-item-caption {
+  color: #757575;
+}
+
+/* FOOTER */
+/* address */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+.address {
+  font-style: normal;
+}
+.address-city {
+  color: #ffffff;
+}
+.address-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-phone:hover,
+.address-mail:focus,
+.address-phone:focus {
+  color: #2196f3;
+}
