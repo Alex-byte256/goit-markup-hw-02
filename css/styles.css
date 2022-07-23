@@ -1,41 +1,3 @@
-/* 
-
-пофіксити адрес тег бо він дає з нахилом текст !!!!!!!!!!!!
-поставити кнопкам значення наслідування!!!!!!!!!!!!
-
-Кольори з макету
-#000000 -logo
-#2196F3 -logo and hover for links
-#212121 -links header
-#757575 - header phone and mail / hover #2196F3
-#FFFFFF -hero
-#2F303A -background hero section
-#FFFFFF - text color btn
-#2196F3 - background color btn
-#188CE8 - btn hover
-#757575 - P in section after hero section
-#212121 - h3 in section after hero section
-#212121 - h2 in what we do section
-#212121 - h2 in our team section
-#F5F4FA - our team background section
-#212121 - teamate item h3
-#757575 - p in team item list
-#FFFFFF  #2196F3 -footer logo 
-#FFFFFF - adress in footer
-color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
-#2F303A  - background footer
-
-Колір до сторінки портфоліо
-#212121 - текст кнопки навігації по портфоліо 
-#F5F4FA - фон кнопки 
-HOVER
-#FFFFFF - текст
-#2196F3 - фон
-
-#212121 -h2 карточки
-#757575 -p карточки портфоліо
-*/
-
 body {
   color: #757575;
   font-family: "Roboto", sans-serif;
@@ -96,11 +58,6 @@ body {
 
 .header-nav-list-item {
   color: var(--title-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .header-nav-list-item:hover,
@@ -108,7 +65,8 @@ body {
   color: var(--link-logo-blue);
 }
 
-.header-contact-list-item {
+.header-contact-list-item,
+.header-nav-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -172,7 +130,8 @@ body {
 
 /* work section */
 
-.work-section-title {
+.work-section-title,
+.team-section-title {
   color: var(--title-color);
 
   font-weight: 700;
@@ -186,14 +145,7 @@ body {
 .team-section {
   background-color: #f5f4fa;
 }
-.team-section-title {
-  color: var(--title-color);
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
 .team-item-title {
   color: var(--title-color);
 
