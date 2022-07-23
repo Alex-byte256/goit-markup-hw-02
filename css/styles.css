@@ -23,8 +23,7 @@
 #FFFFFF  #2196F3 -footer logo 
 #FFFFFF - adress in footer
 color: rgba(255, 255, 255, 0.6); - footrer mail and phone hover maybe #2196F3
-#2F303A - background footer
-
+#2F303A  - background footer
 
 Колір до сторінки портфоліо
 #212121 - текст кнопки навігації по портфоліо 
@@ -36,6 +35,17 @@ HOVER
 #212121 -h2 карточки
 #757575 -p карточки портфоліо
 */
+
+body {
+  color: #757575;
+}
+
+:root {
+  --f-s-backgroud-color: #2f303a;
+  --link-logo-blue: #2196f3;
+  --white-color: #ffffff;
+  --title-color: #212121;
+}
 
 .visually-hidden {
   position: absolute;
@@ -56,6 +66,7 @@ HOVER
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .btn {
@@ -64,7 +75,7 @@ HOVER
 }
 
 .current {
-  color: #2196f3;
+  color: var(--link-logo-blue);
 }
 
 /* --------------------------Header styles------------------------------- */
@@ -74,40 +85,40 @@ HOVER
 }
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--link-logo-blue);
 }
 
 .header-nav-list-item {
-  color: #212121;
+  color: var(--title-color);
 }
 
 .header-nav-list-item:hover,
 .header-nav-list-item:focus {
-  color: #2196f3;
+  color: var(--link-logo-blue);
 }
 
-.header-contact-list-item {
+/* .header-contact-list-item {
   color: #757575;
-}
+} */
 
 .header-contact-list-item:hover,
 .header-contact-list-item:focus {
-  color: #2196f3;
+  color: var(--link-logo-blue);
 }
 
 /* -----------------------main sstyles-------------------- */
 /* HERO section */
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--f-s-backgroud-color);
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-btn {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--link-logo-blue);
 }
 
 .hero-btn:hover,
@@ -117,16 +128,16 @@ HOVER
 
 /* benefots section */
 .benefits-item-title {
-  color: #212121;
+  color: var(--title-color);
 }
-.benefits-caption {
+/* .benefits-caption {
   color: #757575;
-}
+} */
 
 /* work section */
 
 .work-section-title {
-  color: #212121;
+  color: var(--title-color);
 }
 
 /* our team section */
@@ -135,29 +146,29 @@ HOVER
   background-color: #f5f4fa;
 }
 .team-section-title {
-  color: #212121;
+  color: var(--title-color);
 }
 .team-item-title {
-  color: #212121;
+  color: var(--title-color);
 }
-.team-item-caption {
+/* .team-item-caption {
   color: #757575;
-}
+} */
 
 /* FOOTER */
 /* address */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--f-s-backgroud-color);
 }
 
 .logo-footer {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .address {
   font-style: normal;
 }
 .address-city {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .address-mail {
   color: rgba(255, 255, 255, 0.6);
@@ -170,7 +181,7 @@ HOVER
 .address-phone:hover,
 .address-mail:focus,
 .address-phone:focus {
-  color: #2196f3;
+  color: var(--link-logo-blue);
 }
 
 /* ----------------Portfolio html------------------ */
@@ -178,19 +189,20 @@ HOVER
 /* portfolio section */
 
 .portfolio-btn {
-  color: #212121;
+  color: var(--title-color);
   background-color: #f5f4fa;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--link-logo-blue);
 }
 
 .works-item-title {
-  color: #212121;
+  color: var(--title-color);
 }
-.works-item-caption {
+/* .works-item-caption {
   color: #757575;
 }
+ */
